@@ -6,7 +6,7 @@ import { Search } from "react-bootstrap-icons";
 const navigation = [
 	{
 		href: "/",
-		label: "Home",
+		label: "Agendas",
 	},
 	{
 		href: "/blog",
