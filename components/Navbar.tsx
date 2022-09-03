@@ -8,8 +8,16 @@ const navigation = [
 	},
 	{
 		href: "/blog",
-		label: "Blog",
+		label: "Albums Photos",
 	},
+	{
+		href: "/about",
+		label: "Artistes",
+	},
+	{
+		href: "/contact",
+		label: "Bullet Journal",
+	}
 ];
 
 export default function Navbar() {
@@ -32,7 +40,7 @@ export default function Navbar() {
 									key={item.label}
 									href={item.href}
 									prefetch={false}>
-									<a className="inline-flex items-center px-1 pt-1 text-xl font-medium text-gray-600 uppercase duration-300 hover:text-cyan-500">
+									<a className="inline-flex items-center px-1 pt-1 text-xl font-light text-gray-600 uppercase duration-300 hover:text-cyan-500">
 										{item.label}
 									</a>
 								</Link>
