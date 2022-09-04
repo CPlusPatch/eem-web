@@ -4,11 +4,11 @@ import { Search } from "react-bootstrap-icons";
 const navigation = [
 	{
 		href: "/",
-		label: "Agendas",
+		label: "Home",
 	},
 	{
-		href: "/blog",
-		label: "Albums Photos",
+		href: "/contact",
+		label: "Contact",
 	},
 	{
 		href: "/about",
